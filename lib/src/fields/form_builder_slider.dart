@@ -128,6 +128,7 @@ class FormBuilderSlider extends FormBuilderField<double> {
   final TextStyle? textStyle;
   final TextStyle? maxTextStyle;
   final bool shouldRequestFocus;
+  final bool ? geometryActive;
 
   /// Creates field for selection of a numerical value on a slider
   FormBuilderSlider({
